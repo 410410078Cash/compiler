@@ -9,13 +9,13 @@ compile:
 	javac -cp $(ANTLR_JAR):. *.java
 
 ex1:
-	java -cp $(ANTLR_JAR):. testLexer.java example1.c
+	java -cp $(ANTLR_JAR):. testLexer example1.c
 
 ex2:
-	java -cp $(ANTLR_JAR):. testLexer.java example2.c
+	java -cp $(ANTLR_JAR):. testLexer example2.c
 
 ex3:
-	java -cp $(ANTLR_JAR):. testLexer.java example3.c
+	java -cp $(ANTLR_JAR):. testLexer example3.c
 
 clean:
 	rm -f *.class

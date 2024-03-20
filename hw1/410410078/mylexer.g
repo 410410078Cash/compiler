@@ -59,6 +59,7 @@ BIT_OR : '|';
 
 /* NOT */
 NOT : '!';
+BIT_NOT : '~';
 
 /* ASSIGN */
 NORMAL_ASSIGN : '=';
